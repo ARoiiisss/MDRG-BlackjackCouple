@@ -1,0 +1,97 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>BlackjackCouple</RootNamespace>
+    <AssemblyName>BlackjackCouple</AssemblyName>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MelonLoader 运行时 -->
+    <Reference Include="MelonLoader">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\net6\MelonLoader.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\net6\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\net6\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 游戏 Il2Cpp 程序集 -->
+    <Reference Include="Il2CppGameAssembly">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppGameAssembly.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppIC.UI">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppIC.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppIC.Utility.Runtime">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppIC.Utility.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppIC.ManagedCoroutine">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppIC.ManagedCoroutine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Unity 模块 -->
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Il2Cpp 基础程序集（CS0012 Object 依赖） -->
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Font 依赖（CS0246 Font） -->
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Hgame\factorial-omega-win-64\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
