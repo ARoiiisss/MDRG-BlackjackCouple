@@ -16,7 +16,7 @@ A romantic Blackjack mini-game mod for **My Dystopian Robot Girlfriend (MDRG)** 
 
 ## Version Notice
 
-> **Version Notice**: This mod is developed and tested for the **latest IL2CPP version** of My Dystopian Robot Girlfriend. Using it with older game versions or the Mono build may result in bugs or crashes.
+> **Version Notice**: This mod is developed and tested only for **My Dystopian Robot Girlfriend v0.97.11** . Using it with other game versions may result in bugs or crashes.
 
 > [!CAUTION]
 > Supported setup:<br>
