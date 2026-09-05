@@ -68,4 +68,3 @@ E:\Hgame\factorial-omega-win-64\Mods\BlackjackCouple.dll
 | `type or namespace Il2Cpp/StaticGuiBase not found` | `HintPath`s wrong — fix the csproj reference paths |
 | `MissingMethodException` at runtime | MelonLoader assembly version mismatch — update MelonLoader to 0.7.2 |
 | `UnityAction`-related compile errors | UnityEngine.Events type conflict — make sure `UnityEngine.UI` is referenced and `LangVersion=10` |
-*（内容由AI生成，仅供参考）*
